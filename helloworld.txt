@@ -1,3 +1,7 @@
 printf("Hello World");
 'comment
+<<<<<<< HEAD
+change feature test branch comment
+=======
 'master comment
+>>>>>>> master
