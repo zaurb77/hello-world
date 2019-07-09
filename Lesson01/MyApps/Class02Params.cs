@@ -11,7 +11,6 @@ namespace Lesson01.MyApps
     public static void ParamsTest()
     {
       Params(5, 3, 9);
-      Console.ReadKey();
     }
 
     static void Params(params int[] a)

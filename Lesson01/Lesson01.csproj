@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DZ\DZ1.cs" />
     <Compile Include="MyApps\Class01RefOut.cs" />
     <Compile Include="MyApps\Class02Params.cs" />
+    <Compile Include="MyApps\Class03Factorial.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
