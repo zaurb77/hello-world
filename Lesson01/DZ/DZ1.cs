@@ -8,13 +8,16 @@ namespace Lesson01.DZ
 {
   class DZ1
   {
+    //Задача 1
+    //Пользователь вводит две буквы.Вывести на экран все буквы от А до Б при помощи рекурсии.
+
     public static void Letters()
     {
       char a = 'a';
       char b = 'z';
 
-      //PrintCharsLoop(a, b);
-      PrintCharsRecursion(a, b);
+      //PrintCharsLoop(a, b);         // при помощи цикла for
+      PrintCharsRecursion(a, b);  // при помощи рекурсии
 
     }
 
