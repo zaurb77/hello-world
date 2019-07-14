@@ -56,15 +56,15 @@ namespace Lesson01.DZ
         for (int k = i; k >= 0; k--)
         {
           Console.Write(' ');
-          if (k<depth-1)
-        {
+        }
+        
+        for(int l = 1; l<=i; l++)
+          {
           Console.Write(image);
-        }
-          
+          }
         
-        }
-        
-        
+
+
         Console.WriteLine();
       }
     }
