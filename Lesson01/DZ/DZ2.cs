@@ -51,13 +51,20 @@ namespace Lesson01.DZ
 
     private static void MapFigure3(int depth, char image)
     {
-      for (int i = depth-1; i >= 0; i--)
+      for (int i = depth-1; i >=0 ; i--)
       {
-        for (int k = i; k <= 0; k++)
+        for (int k = i; k >= 0; k--)
         {
           Console.Write(' ');
+          if (k<depth-1)
+        {
           Console.Write(image);
         }
+          
+        
+        }
+        
+        
         Console.WriteLine();
       }
     }
