@@ -17,52 +17,58 @@ namespace Lesson01.DZ
 
     public static void Figures()
     {
-      int depth = 5;
-      char image = '°';
+      int ROWS = 10;
+      char GRAPHCHAR = '*';
 
-      //MapFigure1(depth, image);
-      //MapFigure2(depth, image);
-      MapFigure3(depth, image);
+      Figure1(ROWS, GRAPHCHAR);
+      Figure2(ROWS, GRAPHCHAR);
+      Figure3(ROWS, GRAPHCHAR);
+      Figure4(ROWS, GRAPHCHAR);
     }
 
-    private static void MapFigure1(int depth, char image)
+    private static void Figure4(int rows, char graphchar)
     {
-      for (int i = 0; i < depth; i++)
+      throw new NotImplementedException();
+    }
+
+    private static void Figure1(int ROWS, char GRAPHCHAR)
+    {
+      for (int i = 0; i < ROWS; i++)
       {
         for (int k = 0; k <= i; k++)
         {
-          Console.Write(image);
+          Console.Write(GRAPHCHAR);
+        }
+        Console.WriteLine();
+      }
+      Console.WriteLine();
+    }
+
+    private static void Figure2(int ROWS, char GRAPHCHAR)
+    {
+      for (int i = ROWS - 1; i >= 0; i--)
+      {
+        for (int k = 0; k <= i; k++)
+        {
+          Console.Write(GRAPHCHAR);
         }
         Console.WriteLine();
       }
     }
 
-    private static void MapFigure2(int depth, char image)
+    private static void Figure3(int ROWS, char GRAPHCHAR)
     {
-      for (int i = depth-1; i >= 0; i--)
+      for (int row = ROWS; row >= 0; row--)
       {
-        for (int k = 0; k <= i; k++)
-        {
-          Console.Write(image);
-        }
-        Console.WriteLine();
-      }
-    }
-
-    private static void MapFigure3(int depth, char image)
-    {
-      for (int i = depth; i >=0 ; i--)
-      {
-        for (int k = 0; k < i; k++)
+        var counter = 0;
+        for ( counter = 0; counter < row; counter++)
         {
           Console.Write(' ');
         }
-
-        for(int l = 0; l < depth-i; l++)
-          {
-          Console.Write(image);
-          }
-        
+        for ( counter = 0; counter < ROWS - row; counter++)
+        {
+          Console.Write(GRAPHCHAR);
+        }
         Console.WriteLine();
       }
     }
