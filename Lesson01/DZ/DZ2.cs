@@ -20,15 +20,10 @@ namespace Lesson01.DZ
       int ROWS = 10;
       char GRAPHCHAR = '*';
 
-      // Figure1(ROWS, GRAPHCHAR);
-      // Figure2(ROWS, GRAPHCHAR);
-      // Figure3(ROWS, GRAPHCHAR);
-      Figure4(ROWS, GRAPHCHAR); //start here
-    }
-
-    private static void Figure4(int rows, char graphchar)
-    {
-      throw new NotImplementedException();
+      Figure1(ROWS, GRAPHCHAR);
+      Figure2(ROWS, GRAPHCHAR);
+      Figure3(ROWS, GRAPHCHAR);
+      Figure4(ROWS, GRAPHCHAR);
     }
 
     private static void Figure1(int ROWS, char GRAPHCHAR)
@@ -71,6 +66,24 @@ namespace Lesson01.DZ
         }
         Console.WriteLine();
       }
+      Console.WriteLine();
+    }
+    private static void Figure4(int rows, char graphchar)
+    {
+      for (int row = rows; row >= 0; row--)
+      {
+        var counter = 0;
+        for (counter = 0; counter < rows - row; counter++)
+        {
+          Console.Write(' ');
+        }
+        for (counter = 0; counter < row; counter++)
+        {
+          Console.Write(graphchar);
+        }
+        Console.WriteLine();
+      }
+      Console.WriteLine();
     }
   }
 }
