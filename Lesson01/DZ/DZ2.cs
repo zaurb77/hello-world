@@ -8,21 +8,33 @@ namespace Lesson01.DZ
 {
   class DZ2
   {
-    //Задача 2 - Рекурсия
-    //*
-    //**
-    //***
-    //****
-    //*****
+    /*Задача 2
+
+    *					******				*			******
+    **				*****			   **			 *****
+    ***				****				***			  ****
+    ****			***			   ****				 ***
+    *****			**			  *****				  **
+    ******    *        ******          *
+     Fig.1	 Fig.2		 Fig.3		   Fig.4
+    */
 
     public static void Figures()
     {
       int ROWS = 10;
       char GRAPHCHAR = '*';
 
+      Console.WriteLine("Draw Fig. 1");
+      Console.ReadKey();
       Figure1(ROWS, GRAPHCHAR);
+      Console.WriteLine("Draw Fig. 2");
+      Console.ReadKey();
       Figure2(ROWS, GRAPHCHAR);
+      Console.WriteLine("Draw Fig. 3");
+      Console.ReadKey();
       Figure3(ROWS, GRAPHCHAR);
+      Console.WriteLine("Draw Fig. 4");
+      Console.ReadKey();
       Figure4(ROWS, GRAPHCHAR);
     }
 

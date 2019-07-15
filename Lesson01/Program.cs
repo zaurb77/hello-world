@@ -29,8 +29,10 @@ namespace Lesson01
       //DZ1.Letters();
 
       //Задача 2
-      DZ2.Figures();
+      //DZ2.Figures();
 
+      //Задача 3
+      DZ3.InputNumbers();
 
       Console.ReadKey();
     }
