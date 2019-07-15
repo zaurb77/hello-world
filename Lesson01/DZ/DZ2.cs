@@ -20,10 +20,10 @@ namespace Lesson01.DZ
       int ROWS = 10;
       char GRAPHCHAR = '*';
 
-      Figure1(ROWS, GRAPHCHAR);
-      Figure2(ROWS, GRAPHCHAR);
-      Figure3(ROWS, GRAPHCHAR);
-      Figure4(ROWS, GRAPHCHAR);
+      // Figure1(ROWS, GRAPHCHAR);
+      // Figure2(ROWS, GRAPHCHAR);
+      // Figure3(ROWS, GRAPHCHAR);
+      Figure4(ROWS, GRAPHCHAR); //start here
     }
 
     private static void Figure4(int rows, char graphchar)
