@@ -46,6 +46,7 @@
     <Compile Include="DZ\DZ1.cs" />
     <Compile Include="DZ\DZ2.cs" />
     <Compile Include="DZ\DZ3.cs" />
+    <Compile Include="DZ\DZ4.cs" />
     <Compile Include="MyApps\Class01RefOut.cs" />
     <Compile Include="MyApps\Class02Params.cs" />
     <Compile Include="MyApps\Class03Factorial.cs" />
