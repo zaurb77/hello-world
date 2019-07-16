@@ -32,10 +32,10 @@ namespace Lesson01
       //DZ2.Figures();
 
       //Задача 3
-      //DZ3.InputNumbers();
+      DZ3.InputNumbers();
 
       //Задача 4
-      DZ4.SumArrayElements();
+      //DZ4.SumArrayElements();
 
       Console.ReadKey();
     }

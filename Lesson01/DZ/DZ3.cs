@@ -17,14 +17,33 @@ namespace Lesson01.DZ
 
     public static void InputNumbers()
     {
-      int num= int.Parse(Console.ReadLine());
-      FindMaxAndMin(num);
+      int num1 = 0;
+      int num2 = 0;
+      int num3 = 0;
+      int num4 = 0;
+      int num5 = 0;
+
+      Console.Write("Введите первое число: ");
+      num1= int.Parse(Console.ReadLine());
       
 
-      //FindMaxAndMin(int.Parse(num));
+      Console.Write("Введите второе число: ");
+      num2 = int.Parse(Console.ReadLine());
+
+      Console.Write("Введите третье число: ");
+      num3 = int.Parse(Console.ReadLine());
+
+      Console.Write("Введите четвертое число: ");
+      num4 = int.Parse(Console.ReadLine());
+
+      Console.Write("Введите пятое число: ");
+      num5 = int.Parse(Console.ReadLine());
+
+      int[] myArray = {num1, num2, num3, num4, num5};
+      FindMaxAndMin(ref myArray);
     }
 
-    static void FindMaxAndMin(params int[] arr)
+    static void FindMaxAndMin(ref int[] arr)
     {
 
       int max=arr[0];
