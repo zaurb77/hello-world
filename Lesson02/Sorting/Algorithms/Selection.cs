@@ -5,15 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * Source: https://www.geeksforgeeks.org/selection-sort/
- * The selection sort algorithm sorts an array by repeatedly finding the minimum element
+ * Source: https://www.geeksforgeeks.org/selection-Sort/
+ * The selection Sort algorithm sorts an array by repeatedly finding the minimum element
  * (considering ascending order) from unsorted part and putting it at the beginning.
  * The algorithm maintains two subarrays in a given array.
  *
  *  1) The subarray which is already sorted.
  *  2) Remaining subarray which is unsorted.
  *
- * In every iteration of selection sort, the minimum element (considering ascending order)
+ * In every iteration of selection Sort, the minimum element (considering ascending order)
  * from the unsorted subarray is picked and moved to the sorted subarray.
  */
 
@@ -24,7 +24,7 @@ namespace Lesson02.Sorting.Algorithms
   {
   
     // Algorithm: Selection Sort
-    public static void sort(int[] arr, string steps)
+    public static void Sort(int[] arr, string steps)
     {
       int n = arr.Length;
 

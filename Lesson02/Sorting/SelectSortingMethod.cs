@@ -28,7 +28,7 @@ namespace Lesson02.Sorting
     {
       if (userSelectedIndex <0 && userSelectedIndex>37) throw new ArgumentOutOfRangeException(nameof(userSelectedIndex));
 
-      Console.WriteLine($"Selected sort method is: {methodsList[userSelectedIndex]}");
+      Console.WriteLine($"Selected Sort method is: {methodsList[userSelectedIndex]}");
     }
 
     private static void PrintMethodsList(List<string> methods)
@@ -67,7 +67,10 @@ namespace Lesson02.Sorting
       switch (sortingAlgorithm)
       {
         case 0:
-          Selection.sort(arrayToSort, displaySteps);
+          Selection.Sort(arrayToSort, displaySteps);
+          break;
+        case 1:
+          Bubble.Sort(arrayToSort, displaySteps);
           break;
         default:
           Console.WriteLine("Invalid algorithm");

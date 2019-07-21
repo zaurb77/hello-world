@@ -23,7 +23,7 @@ namespace Lesson02.Sorting
 
       SortBySelectedSortingAlgorithm(arraySortingMethod, myArray, displaySortingSteps);
 
-      //Selection.sort(myArray, displaySortingSteps);
+      //Selection.Sort(myArray, displaySortingSteps);
 
       Console.WriteLine("Sorted array:");
       PrintArray(myArray);

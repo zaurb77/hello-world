@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lesson02.Sorting.Algorithms
 {
-  // BogoSort or Permutation sort algorithm
+  // BogoSort or Permutation Sort algorithm
 
   class Bogosort
   {
