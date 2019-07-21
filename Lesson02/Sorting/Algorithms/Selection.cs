@@ -22,17 +22,9 @@ namespace Lesson02.Sorting.Algorithms
 {
   class Selection
   {
-    // Driver code  
-    public static void Sort()
-    {
-      int[] arr = { 64, 25, 12, 22, 11 };
-      sort(arr);
-      Console.WriteLine("Sorted array");
-      printArray(arr);
-    }
-
+  
     // Algorithm: Selection Sort
-    public static void sort(int[] arr)
+    public static void sort(int[] arr, string steps)
     {
       int n = arr.Length;
 
@@ -50,16 +42,11 @@ namespace Lesson02.Sorting.Algorithms
         int temp = arr[min_idx];
         arr[min_idx] = arr[i];
         arr[i] = temp;
+        if (steps == "y")
+          Lesson02.Sorting.Sort.PrintArray(arr);
       }
     }
-    // Prints the array 
-    static void printArray(int[] arr)
-    {
-      int n = arr.Length;
-      for (int i = 0; i < n; ++i)
-        Console.Write(arr[i] + " ");
-      Console.WriteLine();
-    }
+    
 
     
   }

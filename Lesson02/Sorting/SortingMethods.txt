@@ -1,0 +1,38 @@
+﻿ [0] Selection Sort
+ [1] Bubble Sort
+ [2] Recursive Bubble Sort
+ [3] Insertion Sort
+ [4] Recursive Insertion Sort
+ [5] Merge Sort
+ [6] Iterative Merge Sort
+ [7] Quick Sort
+ [8] Iterative Quick Sort
+ [9] Heap Sort
+[10] Counting Sort
+[11] Radix Sort
+[12] Bucket Sort
+[13] ShellSort
+[14] TimSort
+[15] Comb Sort
+[16] Pigeonhole Sort
+[17] Cycle Sort
+[18] Cocktail Sort
+[19] Strand Sort
+[20] Bitonic Sort
+[21] Pancake sorting
+[22] Binary Insertion Sort
+[23] BogoSort or Permutation Sort
+[24] Gnome Sort
+[25] Sleep Sort – The King of Laziness / Sorting while Sleeping
+[26] Structure Sorting (By Multiple Rules) in C++
+[27] Stooge Sort
+[28] Tag Sort (To get both sorted and original)
+[29] Tree Sort
+[30] Cartesian Tree Sorting
+[31] Odd-Even Sort / Brick Sort
+[32] QuickSort on Singly Linked List
+[33] QuickSort on Doubly Linked List
+[34] 3-Way QuickSort (Dutch National Flag)
+[35] Merge Sort for Linked Lists
+[36] Merge Sort for Doubly Linked List
+[37] 3-way Merge Sort
